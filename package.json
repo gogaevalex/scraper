@@ -1,0 +1,30 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/gogaevalex/scraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/gogaevalex/scraper/issues"
+  },
+  "homepage": "https://gitlab.com/gogaevalex/scraper#readme",
+  "dependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "node-telegram-bot-api": "^0.50.0",
+    "query-string": "^6.13.1",
+    "transliteration": "^2.1.11"
+  }
+}
