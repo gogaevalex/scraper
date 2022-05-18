@@ -1,0 +1,2 @@
+# scraper
+Parser for Avito.
